@@ -23,3 +23,9 @@ Laravel-Mix: provides a simple and powerful way to compile and bundle your React
 Inertia.js: a new way of building SPAs that lets you use Laravel to power your application's backend and use React as a templating engine for your frontend.
 
 Laravel Livewire: a full-stack framework for building dynamic interfaces using PHP, HTML, and JavaScript. It simplifies the process of building reactive interfaces with Laravel and React.
+
+docker compose run --rm npm install
+docker compose run --rm npm run dev
+
+docker-compose run --rm artisan tinker
+$user = User::create(['email' => 'zyx@test.com', 'name' => 'Zyx maker', 'password' => Hash::make('secret')]);
