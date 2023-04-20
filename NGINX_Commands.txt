@@ -5,4 +5,21 @@ docker compose up
 docker compose up nginx # select container from compose
 docker compose up --build # to rebuild
 
-docker exec -it e1f1fe4f5d6b10899d710e48681b901383ef73a950425f8d1d43d291e094a635 sh
+// create a laravel project
+docker-compose run --rm composer create-project laravel/laravel .
+
+other packages
+-- react --
+Laravel Sanctum: provides a simple and lightweight authentication system for single-page applications (SPAs) built with React.
+
+Laravel Echo: provides an elegant way to subscribe to real-time events in your Laravel application from a React frontend.
+
+Laravel Passport: provides a full OAuth2 server implementation, allowing you to use Passport to build a custom API for your React application.
+
+Spatie/Laravel-React: provides a collection of reusable React components that integrate with Laravel.
+
+Laravel-Mix: provides a simple and powerful way to compile and bundle your React assets for deployment.
+
+Inertia.js: a new way of building SPAs that lets you use Laravel to power your application's backend and use React as a templating engine for your frontend.
+
+Laravel Livewire: a full-stack framework for building dynamic interfaces using PHP, HTML, and JavaScript. It simplifies the process of building reactive interfaces with Laravel and React.
