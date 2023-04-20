@@ -1,0 +1,8 @@
+docker build -t laravel-nginx-t .
+docker run --rm -p 80:80 -v D:\Codes\Fresh_Start\Docker_Testing\laravel-docker\src:/var/www/html/public laravel-nginx-t
+
+docker compose up
+docker compose up nginx # select container from compose
+docker compose up --build # to rebuild
+
+docker exec -it e1f1fe4f5d6b10899d710e48681b901383ef73a950425f8d1d43d291e094a635 sh
