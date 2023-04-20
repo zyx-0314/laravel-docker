@@ -1,2 +1,0 @@
-docker build -t laravel-nginx-t .
-docker run --rm -p 80:80 -v D:\Codes\Fresh_Start\Docker_Testing\laravel-docker\src:/var/www/html/public laravel-nginx-t
